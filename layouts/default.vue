@@ -7,11 +7,12 @@
             <NuxtLink to="/" class="font-bold mx-30">Home</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/products" class="font-bold mx-30">Products</NuxtLink>
+            <NuxtLink to="/products" class="font-bold mx-30 btn">Products</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/login" class="font-bold mx-30">Login</NuxtLink>
           </li>
+          <li><NuxtLink to="/about" class="font-bold mx-30">About</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -24,5 +25,9 @@
 <style>
 .router-link-active{
     color: rgb(137, 199, 140);
+}
+
+.router-link-active.btn{
+  color: #ffff;
 }
 </style>

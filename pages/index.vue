@@ -5,6 +5,7 @@
     </div>
     <div class="my-40 text-2xl text-center">
       <h2>Resell your synths/vynil/hardware</h2>
+      <CanvasComponent></CanvasComponent>
     </div>
   </div>
 </template>
